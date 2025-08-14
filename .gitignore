@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+*.log
+
+# VSCode
+.vscode/
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+*.exe
+*.dll
+*.pdb
+*.cache
+*.mdb
+*.db
+*.pidb
+*.sln.docstates
+
+# Mac/Linux
+.DS_Store
+*.swp
+
+# Test/coverage
+coverage/
+
+# Otros
+.env

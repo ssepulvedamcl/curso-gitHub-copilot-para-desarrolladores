@@ -1,4 +1,4 @@
-//generame un algoritmo para saber si una palabra es palimdrome o no
+
 function esPalindromo(palabra) {
     // Eliminar espacios y convertir a minúsculas
     palabra = palabra.replace(/\s+/g, '').toLowerCase();
@@ -7,3 +7,5 @@ function esPalindromo(palabra) {
     // Comparar la palabra original con la invertida
     return palabra === palabraInvertida;
 }
+
+module.exports = { esPalindromo };
